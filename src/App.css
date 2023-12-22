@@ -113,3 +113,6 @@ body {
     padding-inline: 30px;
   }
 }
+.marginAdj {
+  margin-left: -5px;
+}

@@ -4,6 +4,7 @@ import MyNav from "./components/MyNav";
 import TvShows from "./components/TvShows";
 import FilmsRow from "./components/FilmsRow";
 import Footer from "./components/Footer";
+/* import Profile from "./components/ProfilePage"; */
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <FilmsRow query="harry%20potter" />
       <FilmsRow query="marvel" />
       <Footer />
+      {/* <Profile /> */}
     </>
   );
 }

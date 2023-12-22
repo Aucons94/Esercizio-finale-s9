@@ -20,7 +20,7 @@ class Header extends Component {
               <Navbar.Toggle aria-controls="basic-navbar-nav" />
               <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="me-auto">
-                  <Nav.Link href="#home" className="text-light">
+                  <Nav.Link href="#" className="text-light">
                     Home
                   </Nav.Link>
                   <Nav.Link href="#" className="text-light">
@@ -38,21 +38,23 @@ class Header extends Component {
                 </Nav>
                 <Nav>
                   <div className="d-flex text-light">
-                    <button className="bg-custom text-light border border-0">
+                    <button className="bg-custom text-light border border-0 mx-2">
                       <Search />
                     </button>
                     <p className="text-light fw-bold my-0 mx-1 align-self-center">KIDS</p>
-                    <button className="bg-custom text-light border border-0 ">
+                    <button className="bg-custom text-light border border-0 mx-2">
                       <Bell />
                     </button>
+
                     <img
                       src="./assets/images/avatar.png"
                       alt="profile_avatar"
-                      width="30px"
-                      height="30px"
+                      width="35px"
+                      height="35px"
                       className="right-icons"
                     />
-                    <button className="bg-custom text-light border border-0 ">
+
+                    <button className="bg-custom text-light border border-0 ms-2">
                       <PersonCircle className="fs-4" />
                     </button>
                   </div>
