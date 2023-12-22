@@ -65,16 +65,12 @@ body {
   -webkit-box-shadow: 3px 3px 5px #000;
   -moz-box-shadow: 3px 3px 5px #000;
   box-shadow: 3px 3px 5px #000;
-  z-index: 1;
+  z-index: 99;
   cursor: pointer;
 }
 
 .card-body {
   background-color: #221f1f;
-}
-
-.size {
-  font-size: 12px;
 }
 
 .cardDimension {
@@ -97,17 +93,13 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #888;
+  background: #888888;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #555;
+  background: #555555;
 }
 
-.modalStyle {
-  background-color: #212529;
-  color: white;
-}
 @media screen and (min-width: 768px) {
   body {
     padding-inline: 30px;
