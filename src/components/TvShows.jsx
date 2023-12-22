@@ -8,7 +8,7 @@ class TvShows extends Component {
       <div className="container-fluid ">
         <div className="row py-4 px-2 d.flex justify-content-md-between bg-custom">
           <div className="col col-md-8 d-flex p-2 p-lg-0 justify-content-between justify-content-md-start align-items-center">
-            <p className="h2 me-5">TV Shows</p>
+            <p className="h2 me-5 text-light">TV Shows</p>
             <Dropdown>
               <Dropdown.Toggle variant="dark" id="dropdown-basic" className="border border-white rounded-0">
                 Genres
